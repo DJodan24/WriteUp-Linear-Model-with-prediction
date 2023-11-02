@@ -110,3 +110,8 @@ The data above gives us an equation of SIMS= 0.045463x GRIP -4.809675 as the equ
 
 ### Predict Target Point of Model 2
 
+```{r}
+predict(model.2,target,interval=c("prediction"))
+```
+
+The table shows that our best fit value for this scenario is -2.809304, but 95% of the time the value will be between -5.444714 and -0.1738933 
