@@ -127,6 +127,7 @@ basicNN <- ggplot(data,aes(y=SIMS,x=GRIP))
 basicNN + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20)) + geom_smooth(method=lm)
 ```
 
-
+The scatter plot above gives us the line of best fit for the data which allows for us to see which data points are the most accurate in Sims vs Grip. 
+Looking at the scatter plot of SIMS vs ARM and SIMS vs GRIP, we can tell that the data in model 1 plot is more scattered across the ends of the best fit line however on Model 2 scatter plot we have less data point towards the ends of the best fit line.
 
 
